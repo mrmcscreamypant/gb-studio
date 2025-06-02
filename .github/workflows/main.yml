@@ -60,6 +60,7 @@ jobs:
           - name: linux-arm64
             label: Linux-arm64
             os: ubuntu-22.04-arm
+      fail-fast: false
 
     steps:
       - uses: actions/checkout@v4
